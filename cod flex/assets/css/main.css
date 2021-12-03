@@ -1,0 +1,112 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagesep{
+    top: -40px;
+    position: relative;
+}
+
+.text1 {
+    width: 600px;
+    top:-50px;
+    position: relative;
+}
+.intro{
+    left: 180px;
+    position: relative;
+    top: 50px;
+    height: 390px;
+    width: 450px;
+}
+.small{
+    font-size: 45px;
+    position: relative;
+}
+.large{
+    font-size: 60px;
+    height: 60px;
+    top: -20px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boxes {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: end;
+    display: flex;
+    width: 1480px;
+    height: 550px;
+    position: relative;
+    top: -110px;
+    right: 163px;
+    cursor: pointer;
+}
+.diplom{
+    width: 570px;
+    height: 300px;
+    display: flex;
+    border: solid 2px white;
+    transition: 0.6s;
+}
+.education{
+    width: 570px;
+    height: 300px;
+    display: flex;
+    border: solid 2px white;
+}
+.talant{
+    width: 570px;
+    height: 300px;
+    display: flex;
+    border: solid 2px white;
+}
+.mentor{
+    width: 570px;
+    height: 300px;
+    display: flex;
+    border: solid 2px white;
+}
+.image{
+    
+    top: 30px;
+    position: relative;
+    
+}
+.text{
+    width: 270px;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    
+    
+}
+.boxes h3{
+    font-size: 23px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     top: 30px;
+     position: relative ;
+     left: 35px;
+
+}
+.boxes  .boxesp{
+    position: relative;
+    top: -10px;
+    left: 35px;
+}
+.diplom:hover{
+    box-shadow: 10px 2px 20px rgb(177, 172, 172);
+    transition: 0.6s;
+}
+.education:hover{
+    box-shadow: 10px 2px 20px rgb(177, 172, 172);
+    transition: 0.6s;
+}
+.talant:hover{
+    box-shadow: 10px 2px 20px rgb(177, 172, 172);
+    transition: 0.6s;
+}
+.mentor:hover{
+    box-shadow: 10px 2px 20px rgb(177, 172, 172);
+    transition: 0.6s;
+}
