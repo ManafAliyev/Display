@@ -43,29 +43,29 @@
     cursor: pointer;
 }
 .diplom{
-    width: 570px;
-    height: 300px;
     display: flex;
-    border: solid 2px white;
-    transition: 0.6s;
+    height: 300px;
+    width: 570px;
+    transition: O.5s;
+
 }
 .education{
-    width: 570px;
-    height: 300px;
+    transition: 0.5s;
     display: flex;
-    border: solid 2px white;
+    height: 300px;
+    width: 570px;
 }
 .talant{
-    width: 570px;
-    height: 300px;
     display: flex;
-    border: solid 2px white;
+     height: 300px;
+     transition: 0.5s;
+     width: 570px;
 }
 .mentor{
-    width: 570px;
-    height: 300px;
     display: flex;
-    border: solid 2px white;
+    height: 300px;
+    width: 570px;
+    transition: 0.5s;
 }
 .image{
     
@@ -95,7 +95,7 @@
     left: 35px;
 }
 .diplom:hover{
-    box-shadow: 10px 2px 20px rgb(177, 172, 172);
+    box-shadow: 10px 4px 20px rgb(177, 172, 172);
     transition: 0.6s;
 }
 .education:hover{
@@ -110,3 +110,4 @@
     box-shadow: 10px 2px 20px rgb(177, 172, 172);
     transition: 0.6s;
 }
+
